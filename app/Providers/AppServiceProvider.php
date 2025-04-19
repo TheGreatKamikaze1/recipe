@@ -25,7 +25,7 @@ class AppServiceProvider extends ServiceProvider
         Route::middleware('api')
             ->prefix('api')
             ->group(base_path('routes/api.php'));
-            config()->set('app.key', 'base64:z0yTHClQhdsFWPDC7jYXtrv+UJmidgde4Qf9QUzM8c0=');
+            config()->set('app.key', 'base64:RpZGxVT48pGUWASWaBXZ25vc2VH1zzPPioG1CmNpFuw=');
     }
 
 }
